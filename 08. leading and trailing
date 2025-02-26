@@ -63,6 +63,7 @@ for(i=0;i<n;i++)
 scanf("%s",pr[i]);
 nt=0;
 t=0;
+
 for(i=0;i<n;i++)
 {
 if((searchnt(pr[i][0]))==-1)
