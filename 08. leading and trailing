@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 int nt,t,top=0;
-char s[50],NT[10],T[10],st[50],l[10][10],tr[50][50]
+char s[50],NT[10],T[10],st[50],l[10][10],tr[50][50];
 int searchnt(char a)
 {
 int count=-1,i;
@@ -54,6 +54,7 @@ int main()
 {
 int i,s,k,j,n;
 char pr[30][30],b,c;
+
 //clrscr();
 printf("Enter the no of productions:");
 scanf("%d",&n);
